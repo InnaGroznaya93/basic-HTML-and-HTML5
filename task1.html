@@ -25,13 +25,16 @@
         width: 100px;
       }
       .thick-green-border {
-        border-color: green;
+        border-color: red;
         border-width: 10px;
         border-style: solid;
         border-radius: 50%;
       }
       .silver-background {
         background-color: silver;
+      }
+      #cat-photo-form {
+        background-color: pink;
       }
     </style>
   </head>
@@ -96,7 +99,10 @@
           <li>other cats</li>
         </ol>
       </div>
-      <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+      <form
+        action="https://www.freecatphotoapp.com/submit-cat-photo"
+        id="cat-photo-form"
+      >
         <label for="indoor"
           ><input
             id="indoor"
